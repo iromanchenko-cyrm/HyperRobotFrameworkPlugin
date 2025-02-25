@@ -25,11 +25,11 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Validate wrapper
       - name: Gradle Wrapper Validation
-        uses: gradle/wrapper-validation-action@v4
+        uses: gradle/wrapper-validation-action@v3
 
   # # Run verifyPlugin and test Gradle tasks
   # test:
